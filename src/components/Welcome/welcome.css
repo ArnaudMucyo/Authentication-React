@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --primary:#CDC2AE;
+    --secondary:#ECE5C7;
+    --alternate:#354259;
+    --dark:#1A132F;
+    --white:#EAF6F6;
+    --blue:#205375
+}
+
+body {
+    background-image: linear-gradient(180deg,var(--dark), var(--blue));
+    font-family: 'Noto Sans', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-page{
+    color: var(--primary);
+}
